@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/header.css",
+	"sources": [
+		"../../sass/components/header.sass"
+	],
+	"sourcesContent": [
+		".main_header {\n    color: #fff;\n    background-color: #000;\n    height: 70px;\n    .container {\n        display: flex;\n        justify-content: space-between;\n        height: 100%;\n        .main_navigation {\n            ul {\n                width: 640px;\n                height: 100%;\n                display: flex;\n                justify-content: space-around;\n                li {\n                    margin-top: auto;\n                    margin-bottom: auto; } } }\n        .user_block {\n            height: 100%;\n            display: flex;\n            .login {\n                margin-top: auto;\n                margin-bottom: auto;\n                margin-right: 20px; } } } }\n"
+	],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,IAAK;EACZ,gBAAgB,EAAE,IAAK;EACvB,MAAM,EAAE,IAAK;CAoB2B;;;AAvB5C,AAII,YAJQ,CAIR,UAAU,CAAC;EACP,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,aAAc;EAC/B,MAAM,EAAE,IAAK;CAgBqB;;;AAvB1C,AASY,YATA,CAIR,UAAU,CAIN,gBAAgB,CACZ,EAAE,CAAC;EACC,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;CAGD;;;AAhB7C,AAcgB,YAdJ,CAIR,UAAU,CAIN,gBAAgB,CACZ,EAAE,CAKE,EAAE,CAAC;EACC,UAAU,EAAE,IAAK;EACjB,aAAa,EAAE,IAAK;CAAG;;;AAhB3C,AAiBQ,YAjBI,CAIR,UAAU,CAaN,WAAW,CAAC;EACR,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;CAIc;;;AAvBxC,AAoBY,YApBA,CAIR,UAAU,CAaN,WAAW,CAGP,MAAM,CAAC;EACH,UAAU,EAAE,IAAK;EACjB,aAAa,EAAE,IAAK;EACpB,YAAY,EAAE,IAAK;CAAG",
+	"names": []
+}

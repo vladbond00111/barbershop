@@ -1,0 +1,45 @@
+.main_header
+  color: #fff
+  background-color: #000
+  // height: 70px
+  .container
+    display: flex
+    justify-content: space-between
+    height: 100%
+    .main_navigation
+      ul
+        display: flex
+        li
+          margin-top: auto
+          margin-bottom: auto
+          a
+            display: inline-block
+            color: #fff
+            text-decoration: none
+            font-size: 16px
+            line-height: 42px
+            padding: 14px 20px
+            &:hover
+              background: #242424
+
+    .user_block
+      height: 100%
+      display: flex
+      .login
+        position: relative
+        display: inline-block
+        color: #fff
+        text-decoration: none
+        font-size: 16px
+        line-height: 42px
+        padding: 14px 20px 14px 50px
+        &::before
+          position: absolute
+          content: ""
+          width: 18px
+          height: 18px
+          top: 28px
+          left: 20px
+          background: #f00
+        &:hover
+          background: #242424

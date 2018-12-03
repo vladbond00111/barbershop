@@ -1,0 +1,23 @@
+main {
+  color: #fff;
+  margin-bottom: 40px; }
+  main .index_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px; }
+  main .features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px; }
+    main .features .features_item {
+      width: 300px; }
+  main .index_content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px; }
+    main .index_content .index_content_left {
+      width: 300px; }
+    main .index_content .index_content_right {
+      width: 300px; }
+
+/*# sourceMappingURL=index.css.map */
