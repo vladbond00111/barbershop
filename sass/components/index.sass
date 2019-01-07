@@ -5,17 +5,96 @@ main
     display: flex
     justify-content: center
     padding-top: 56px
+    img
+      height: 204px
+      width: 368px
   .features
     display: flex
     justify-content: space-between
     margin-bottom: 80px
+    color: #f7f4f1
     .features_item
       width: 300px
+      text-align: center
+      .features_name
+        position: relative
+        display: inline-block
+        font-size: 30px
+        line-height: 42px
+        margin-bottom: 30px
+        padding-bottom: 35px
+        &::after
+          content: ''
+          // display: block
+          background-color: #f7f4f1
+          position: absolute
+          height: 20px
+          width: 20px
+          bottom: 0px
+          left: 50%
+          transform: rotate(45deg)
+          margin-left: -10px
+
   .index_content
     display: flex
-    justify-content: space-evenly
+    justify-content: space-between
+    padding-top: 50px
+    padding-bottom: 50px
+    padding-left: 80px
+    padding-right: 80px
     margin-bottom: 32px
+    color: #000000
+    background:  url(../img/shadow.png) no-repeat center, #f8f5f2 url(../img/bg-white.png)
     .index_content_left
       width: 300px
     .index_content_right
       width: 300px
+    .index_content_title
+      margin-bottom: 30px
+    li
+      margin-bottom: 28px
+      time
+        text-transform: lowercase
+        font-weight: normal
+    p
+      margin-bottom: 25px
+    .gallery
+      position: relative
+      height: 274px
+      .gallery_content
+        margin: 0
+        height: 178px
+        width: 300px
+        border: 7px solid #fff
+      .btn_gallery_prev
+        position: absolute
+        bottom: 0
+        left: 0
+      .btn_gallery_next
+        position: absolute
+        bottom: 0
+        right: 0
+
+    .btn_map
+      margin-right: 16px
+
+    .appointment_form
+      input
+        float:left
+        padding: 7px 15px
+        width: 140px
+        border: 2px solid #000
+        background-color: #f9f6f3
+        text-transform: uppercase
+        font-size: 14px
+        line-height: 24px
+        font-family: "PT Sans Narrow", "Arial", sans-serif
+        font-weight: bold
+        margin-right: 17px
+        margin-bottom: 19px
+        &:nth-child(2n)
+          margin-right: 0px
+        &:focus
+          border: 2px solid #663d15
+      .btn
+        width: 300px

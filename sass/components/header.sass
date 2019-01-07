@@ -21,6 +21,16 @@
             padding: 14px 20px
             &:hover
               background: #242424
+          .active
+            position: relative
+            &::after
+              content: ""
+              display: block
+              bottom: 0px
+              left: 20px
+              right: 20px
+              height: 5px
+              background-color: #fff
 
     .user_block
       height: 100%

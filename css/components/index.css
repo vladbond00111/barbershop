@@ -1,23 +1,164 @@
+/* line 1, X:/front/git/barbershop/sass/components/index.sass */
 main {
   color: #fff;
-  margin-bottom: 40px; }
-  main .index_logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 56px; }
-  main .features {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px; }
-    main .features .features_item {
-      width: 300px; }
-  main .index_content {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 32px; }
-    main .index_content .index_content_left {
-      width: 300px; }
-    main .index_content .index_content_right {
-      width: 300px; }
+  margin-bottom: 40px;
+}
 
-/*# sourceMappingURL=index.css.map */
+/* line 4, X:/front/git/barbershop/sass/components/index.sass */
+main .index_logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 56px;
+}
+
+/* line 8, X:/front/git/barbershop/sass/components/index.sass */
+main .index_logo img {
+  height: 204px;
+  width: 368px;
+}
+
+/* line 11, X:/front/git/barbershop/sass/components/index.sass */
+main .features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  color: #f7f4f1;
+}
+
+/* line 16, X:/front/git/barbershop/sass/components/index.sass */
+main .features .features_item {
+  width: 300px;
+  text-align: center;
+}
+
+/* line 19, X:/front/git/barbershop/sass/components/index.sass */
+main .features .features_item .features_name {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  padding-bottom: 35px;
+}
+
+/* line 26, X:/front/git/barbershop/sass/components/index.sass */
+main .features .features_item .features_name::after {
+  content: '';
+  background-color: #f7f4f1;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  bottom: 0px;
+  left: 50%;
+  transform: rotate(45deg);
+  margin-left: -10px;
+}
+
+/* line 38, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 32px;
+  color: #000000;
+  background: url(../img/shadow.png) no-repeat center, #f8f5f2 url(../img/bg-white.png);
+}
+
+/* line 48, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .index_content_left {
+  width: 300px;
+}
+
+/* line 50, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .index_content_right {
+  width: 300px;
+}
+
+/* line 52, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .index_content_title {
+  margin-bottom: 30px;
+}
+
+/* line 54, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content li {
+  margin-bottom: 28px;
+}
+
+/* line 56, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content li time {
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+/* line 59, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content p {
+  margin-bottom: 25px;
+}
+
+/* line 61, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .gallery {
+  position: relative;
+  height: 274px;
+}
+
+/* line 64, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .gallery .gallery_content {
+  margin: 0;
+  height: 178px;
+  width: 300px;
+  border: 7px solid #fff;
+}
+
+/* line 69, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .gallery .btn_gallery_prev {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 73, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .gallery .btn_gallery_next {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 78, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .btn_map {
+  margin-right: 16px;
+}
+
+/* line 82, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .appointment_form input {
+  padding: 7px 15px;
+  width: 140px;
+  border: 2px solid #000;
+  background-color: #f9f6f3;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: bold;
+  margin-right: 17px;
+  margin-bottom: 19px;
+}
+
+/* line 95, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .appointment_form input:nth-child(2n) {
+  margin-right: 0px;
+}
+
+/* line 97, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .appointment_form input:focus {
+  border: 2px solid #663d15;
+}
+
+/* line 99, X:/front/git/barbershop/sass/components/index.sass */
+main .index_content .appointment_form .btn {
+  width: 300px;
+}
+
+/*# sourceMappingURL=../../css/components/index.map */

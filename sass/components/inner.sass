@@ -1,0 +1,107 @@
+.inner_body
+  background: #f9f6f3 url(../img/price-bg.png)
+  main
+    margin-bottom: 80px
+    color: #000
+    .price_path
+      margin-top: 55px
+      margin-bottom: 45px
+      h1
+        font-size: 30px
+        line-height: 42px
+        color: #000000
+        font-weight: bold
+        margin-bottom: 20px
+      .breadcrambs
+        ul
+          display: flex
+          color: #f7f4f1
+          li
+            padding-right: 40px
+            position: relative
+            display: inline-block
+            &:hover
+              text-decoration: underline
+            a
+              color: #000
+              text-decoration: none
+            &:last-child
+              color: #aba9a7
+              text-decoration: none
+              &::after
+                content: none
+
+            &::after
+              content: ''
+              position: absolute
+              right: 17px
+              bottom: 8px
+              width: 7px
+              height: 7px
+              background-color: #000
+              transform: rotate(45deg)
+    .price_title
+      position: relative
+      text-align: center
+      margin: 1px
+      &::after
+        content: ''
+        position: absolute
+        height: 2px
+        left: 0px
+        right: 0px
+        bottom: 34px
+        background-color: #000
+        z-index: 1
+      h2
+        font-size: 48px
+        line-height: 68px
+        text-align: center
+        // margin-top: 60px
+        // margin-bottom: 30px
+        display: inline-block
+        position: relative
+        padding: 0px 25px
+        z-index: 2
+        background: #f9f6f3 url(../img/price-bg.png)
+    .price_content
+      margin: 1px
+      color: #000000
+      font-family: "PT Sans Narrow", "Arial", sans-serif
+      font-weight: bold
+      h3
+        font-size: 24px
+        line-height: 36px
+        margin-top: 60px
+        margin-bottom: 30px
+      p
+        margin: 0px
+        font-size: 14px
+        line-height: 24px
+      li
+        padding-left: 20px
+        margin: 14px 0
+        font-size: 14px
+        line-height: 24px
+        position: relative
+        &::before
+          content: ''
+          position: absolute
+          left: 7px
+          bottom: 9px
+          width: 7px
+          height: 7px
+          background-color: #000
+          transform: rotate(45deg)
+      table
+        border-collapse: collapse
+        width: 460px
+        td
+          border: 2px solid #000
+          padding: 10px 15px
+      .price_content_block
+        display: flex
+        justify-content: space-between
+        p
+          width: 380px
+          margin-right: 80px

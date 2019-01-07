@@ -21,7 +21,7 @@
 						<a href="#">Новости</a>
 					</li>
 					<li>
-						<a href="#">Прайс-лист</a>
+						<a href="price.html">Прайс-лист</a>
 					</li>
 					<li>
 						<a href="#">Магазин</a>
@@ -39,7 +39,7 @@
 	</header>
 	<main class="container">
 		<div class="index_logo">
-			<img src="img/index-logo.png" alt="Borodinski">
+			<img src="img/index-logo.png" alt="Borodinski" height="204" width="368">
 		</div>
 		<section class="features">
 			<div class="features_item">
@@ -51,7 +51,7 @@
 				<p>Забудьте, как вы стриглись раньше. <br> Мы сделаем из вас звезду футбола или кино! <br> Во всяком случае внешне.</p>
 			</div>
 			<div class="features_item">
-				<b class="features_-name">Дорого</b>
+				<b class="features_name">Дорого</b>
 				<p>Наши мастера - профессионалы своего дела и не могут стоить дешего. К тому же, разве цена не дает определенный статус?!</p>
 			</div>
 		</section>
@@ -60,12 +60,16 @@
 				<h2 class="index_content_title">Новости</h2>
 				<ul class="news_preview">
 					<li>
-						<p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-						<time datetime="2016-01-11">11 января</time>
+						<p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки
+							<br>
+							<time datetime="2016-01-11">11 января</time>
+						</p>
 					</li>
 					<li>
-						<p>В нашей команде пополнение, борис"бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
-						<time datetime="2016-09-19">19 сентября</time>
+						<p>В нашей команде пополнение, борис"бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+							<br>
+							<time datetime="2016-09-19">19 сентября</time>
+						</p>
 					</li>
 				</ul>
 				<a href="#" class="btn">Все новости</a>
@@ -74,10 +78,10 @@
 				<h2 class="index_content_title">Фотогалерея</h2>
 				<div class="gallery">
 					<figure class="gallery_content">
-
+						<img src="img/gallery-1.png" alt="photo 1" height="164" width="286">
 					</figure>
-					<button class="btn_gallery_prev">Назад</button>
-					<button class="btn_gallery_next">Вперед</button>
+					<button class="btn btn_gallery_prev">Назад</button>
+					<button class="btn btn_gallery_next">Вперед</button>
 				</div>
 			</div>
 		</section>
@@ -94,8 +98,8 @@
 					ПН — ПТ: С 10:00 ДО 22:00<br>
 					СБ — ВС: С 10:00 ДО 19:00
 				</p>
-				<a href="#" class="btn">Как проехать</a>
-				<a href="#" class="btn">Обратная связь</a>
+				<a href="#" class="btn btn_map">Как проехать</a>
+				<a href="#" class="btn btn_feedback">Обратная связь</a>
 			</div>
 			<div class="index_content_right">
 				<h2 class="index_content_title">Записаться</h2>
@@ -110,5 +114,69 @@
 			</div>
 		</section>
 	</main>
+	<footer class="footer">
+		<div class="container">
+			<p class="contact">
+				барбершоп "бородинский"
+				<br>
+				адрес:г.Санкт-Петербург ул.Б.Конюшенная,д.19/8
+				<br>
+				<a class="link_map" href="">как нас найти?</a>
+				<br>
+				телефон:+7(012)345-67-89
+			</p>
+			<div class="links">
+				<span>давайте дружить!</span>
+				<div class="link">
+					<a href="" target="_blank">
+						<img src="img/fb.svg" alt="fb" height="42" width="42">
+					</a>
+				</div>
+				<div class="link">
+					<a href="" target="_blank">
+						<img src="img/vk.svg" alt="vk" height="42" width="42">
+					</a>
+				</div>
+				<div class="link">
+					<a href="" target="_blank">
+						<img src="img/insta.svg" alt="insta" height="42" width="42">
+					</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>разработано:</span>
+				<a class="btn_copyright" href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</footer>
+	<div class="modal_form">
+		<h2>
+			Личный кабинет
+		</h2>
+		<p>
+			Введите пожалуйста свой логин и пароль
+		</p>
+		<form action="" method="post">
+			<input type="text" name="login" placeholder="логин">
+			<input type="password" name="password" placeholder="пароль">
+			<label class="login_checkbox" for="checkbox_remember">
+				<input type="checkbox" name="remember" value="" id="checkbox_remember">
+				<span class="checkbox_indicator"></span>
+				Запомните меня
+			</label>
+			<a href="#">Я забыл пароль!</a>
+			<div class="clear"></div>
+			<input class="btn" type="submit" name="" value="Войти">
+		</form>
+		<button class="modal_close" type="button" name="close_button"></button>
+	</div>
+	<div class="modal_map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5585.795899359907!2d30.520581421768227!3d50.45057612860128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50ffa1b91f%3A0x42d5962fe7e791c!2sIndependence+Square!5e0!3m2!1sru!2sua!4v1545771412968" width="766" height="561" frameborder = "0"   allowfullscreen></iframe>
+		<button class="modal_close" type="button" name="close_button"></button>
+	</div>
+	<div class="modal_overlay"></div>
+	<script src="js/jquery.js"></script>
+	<script src="js/external.js"></script>
 </body>
 </html>
