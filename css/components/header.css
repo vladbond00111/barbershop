@@ -1,28 +1,23 @@
-/* line 1, X:/front/git/barbershop/sass/components/header.sass */
 .main_header {
   color: #fff;
   background-color: #000;
 }
 
-/* line 5, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container {
   display: flex;
   justify-content: space-between;
   height: 100%;
 }
 
-/* line 10, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul {
   display: flex;
 }
 
-/* line 12, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul li {
   margin-top: auto;
   margin-bottom: auto;
 }
 
-/* line 15, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul li a {
   display: inline-block;
   color: #fff;
@@ -32,17 +27,14 @@
   padding: 14px 20px;
 }
 
-/* line 22, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul li a:hover {
   background: #242424;
 }
 
-/* line 24, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul li .active {
   position: relative;
 }
 
-/* line 26, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .main_navigation ul li .active::after {
   content: "";
   display: block;
@@ -53,13 +45,11 @@
   background-color: #fff;
 }
 
-/* line 35, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .user_block {
   height: 100%;
   display: flex;
 }
 
-/* line 38, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .user_block .login {
   position: relative;
   display: inline-block;
@@ -70,7 +60,6 @@
   padding: 14px 20px 14px 50px;
 }
 
-/* line 46, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .user_block .login::before {
   position: absolute;
   content: "";
@@ -81,9 +70,6 @@
   background: #f00;
 }
 
-/* line 54, X:/front/git/barbershop/sass/components/header.sass */
 .main_header .container .user_block .login:hover {
   background: #242424;
 }
-
-/*# sourceMappingURL=../../css/components/header.map */

@@ -1,21 +1,17 @@
-/* line 1, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body {
   background: #f9f6f3 url(../img/price-bg.png);
 }
 
-/* line 3, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main {
   margin-bottom: 80px;
   color: #000;
 }
 
-/* line 6, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path {
   margin-top: 55px;
   margin-bottom: 45px;
 }
 
-/* line 9, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path h1 {
   font-size: 30px;
   line-height: 42px;
@@ -24,42 +20,35 @@
   margin-bottom: 20px;
 }
 
-/* line 16, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul {
   display: flex;
   color: #f7f4f1;
 }
 
-/* line 19, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li {
   padding-right: 40px;
   position: relative;
   display: inline-block;
 }
 
-/* line 23, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li:hover {
   text-decoration: underline;
 }
 
-/* line 25, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li a {
   color: #000;
   text-decoration: none;
 }
 
-/* line 28, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li:last-child {
   color: #aba9a7;
   text-decoration: none;
 }
 
-/* line 31, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li:last-child::after {
   content: none;
 }
 
-/* line 34, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_path .breadcrambs ul li::after {
   content: '';
   position: absolute;
@@ -71,14 +60,12 @@
   transform: rotate(45deg);
 }
 
-/* line 43, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_title {
   position: relative;
   text-align: center;
   margin: 1px;
 }
 
-/* line 47, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_title::after {
   content: '';
   position: absolute;
@@ -90,7 +77,6 @@
   z-index: 1;
 }
 
-/* line 56, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_title h2 {
   font-size: 48px;
   line-height: 68px;
@@ -102,7 +88,6 @@
   background: #f9f6f3 url(../img/price-bg.png);
 }
 
-/* line 67, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content {
   margin: 1px;
   color: #000000;
@@ -110,7 +95,6 @@
   font-weight: bold;
 }
 
-/* line 72, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content h3 {
   font-size: 24px;
   line-height: 36px;
@@ -118,14 +102,12 @@
   margin-bottom: 30px;
 }
 
-/* line 77, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content p {
   margin: 0px;
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 81, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content li {
   padding-left: 20px;
   margin: 14px 0;
@@ -134,7 +116,6 @@
   position: relative;
 }
 
-/* line 87, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content li::before {
   content: '';
   position: absolute;
@@ -146,28 +127,22 @@
   transform: rotate(45deg);
 }
 
-/* line 96, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content table {
   border-collapse: collapse;
   width: 460px;
 }
 
-/* line 99, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content table td {
   border: 2px solid #000;
   padding: 10px 15px;
 }
 
-/* line 102, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content .price_content_block {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 105, X:/front/git/barbershop/sass/components/inner.sass */
 .inner_body main .price_content .price_content_block p {
   width: 380px;
   margin-right: 80px;
 }
-
-/*# sourceMappingURL=../../css/components/inner.map */

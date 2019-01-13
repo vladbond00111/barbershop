@@ -4,7 +4,6 @@
  * 3. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-/* line 8, X:/front/git/barbershop/sass/libs/normalize.sass */
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -15,7 +14,6 @@ html {
   box-sizing: border-box;
 }
 
-/* line 18, X:/front/git/barbershop/sass/libs/normalize.sass */
 *,
 *::before,
 *::after {
@@ -29,7 +27,6 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-/* line 33, X:/front/git/barbershop/sass/libs/normalize.sass */
 body {
   margin: 0;
 }
@@ -37,7 +34,6 @@ body {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 41, X:/front/git/barbershop/sass/libs/normalize.sass */
 article, aside, footer, header, nav, section, figcaption, figure, main {
   display: block;
 }
@@ -46,7 +42,6 @@ article, aside, footer, header, nav, section, figcaption, figure, main {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 50, X:/front/git/barbershop/sass/libs/normalize.sass */
 hr {
   box-sizing: content-box;
   height: 0;
@@ -59,7 +54,6 @@ hr {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 64, X:/front/git/barbershop/sass/libs/normalize.sass */
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -69,7 +63,6 @@ a {
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
-/* line 74, X:/front/git/barbershop/sass/libs/normalize.sass */
 a:active,
 a:hover {
   outline-width: 0;
@@ -79,7 +72,6 @@ a:hover {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 84, X:/front/git/barbershop/sass/libs/normalize.sass */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -90,7 +82,6 @@ abbr[title] {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 95, X:/front/git/barbershop/sass/libs/normalize.sass */
 sub,
 sup {
   font-size: 75%;
@@ -99,12 +90,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 103, X:/front/git/barbershop/sass/libs/normalize.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 107, X:/front/git/barbershop/sass/libs/normalize.sass */
 sup {
   top: -0.5em;
 }
@@ -114,7 +103,6 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 118, X:/front/git/barbershop/sass/libs/normalize.sass */
 audio,
 video {
   display: inline-block;
@@ -123,7 +111,6 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 127, X:/front/git/barbershop/sass/libs/normalize.sass */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -132,7 +119,6 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 136, X:/front/git/barbershop/sass/libs/normalize.sass */
 img {
   border-style: none;
 }
@@ -140,7 +126,6 @@ img {
 /**
  * Hide the overflow in IE.
  */
-/* line 144, X:/front/git/barbershop/sass/libs/normalize.sass */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -149,7 +134,6 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 153, X:/front/git/barbershop/sass/libs/normalize.sass */
 button,
 input,
 optgroup,
@@ -162,7 +146,6 @@ textarea {
 }
 
 /**Enable panning and pinch zoom gestures, but disable additional non-standard gestures such as double-tap to zoom. Disabling double-tap to zoom removes the need for browsers to delay the generation of click events when the user taps the screen. */
-/* line 168, X:/front/git/barbershop/sass/libs/normalize.sass */
 a, area, button, input, label, select, textarea {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -172,7 +155,6 @@ a, area, button, input, label, select, textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 179, X:/front/git/barbershop/sass/libs/normalize.sass */
 button,
 input {
   overflow: visible;
@@ -182,7 +164,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 189, X:/front/git/barbershop/sass/libs/normalize.sass */
 button,
 select {
   text-transform: none;
@@ -193,7 +174,6 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 202, X:/front/git/barbershop/sass/libs/normalize.sass */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
@@ -202,7 +182,6 @@ select {
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 211, X:/front/git/barbershop/sass/libs/normalize.sass */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -217,7 +196,6 @@ button::-moz-focus-inner,
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 226, X:/front/git/barbershop/sass/libs/normalize.sass */
 legend {
   box-sizing: border-box;
   color: inherit;
@@ -231,7 +209,6 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 240, X:/front/git/barbershop/sass/libs/normalize.sass */
 progress {
   display: inline-block;
   vertical-align: baseline;
@@ -240,7 +217,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 249, X:/front/git/barbershop/sass/libs/normalize.sass */
 textarea {
   overflow: auto;
 }
@@ -249,7 +225,6 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 258, X:/front/git/barbershop/sass/libs/normalize.sass */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -259,7 +234,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 268, X:/front/git/barbershop/sass/libs/normalize.sass */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -270,7 +244,6 @@ textarea {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 280, X:/front/git/barbershop/sass/libs/normalize.sass */
 canvas {
   display: inline-block;
 }
@@ -278,7 +251,6 @@ canvas {
 /**
  * Add the correct display in IE.
  */
-/* line 288, X:/front/git/barbershop/sass/libs/normalize.sass */
 template {
   display: none;
 }
@@ -288,14 +260,12 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 299, X:/front/git/barbershop/sass/libs/normalize.sass */
 [hidden] {
   display: none;
 }
 
 /* Reset
    @mixin ========================================================================= */
-/* line 306, X:/front/git/barbershop/sass/libs/normalize.sass */
 h1, h2, h3, h4, h5, h6, p, blockquote, em, img, i, dl, dt, ol, ul, li, video, canvas {
   margin: 0;
   padding: 0;
@@ -303,31 +273,26 @@ h1, h2, h3, h4, h5, h6, p, blockquote, em, img, i, dl, dt, ol, ul, li, video, ca
   vertical-align: baseline;
 }
 
-/* line 313, X:/front/git/barbershop/sass/libs/normalize.sass */
 div, input, textarea, select, button,
 h1, h2, h3, h4, h5, h6, a, span {
   outline: none;
 }
 
-/* line 318, X:/front/git/barbershop/sass/libs/normalize.sass */
 ul, ol {
   list-style-type: none;
 }
 
-/* line 322, X:/front/git/barbershop/sass/libs/normalize.sass */
 input[type="submit"],
 button {
   cursor: pointer;
 }
 
-/* line 325, X:/front/git/barbershop/sass/libs/normalize.sass */
 input[type="submit"]::-moz-focus-inner,
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 331, X:/front/git/barbershop/sass/libs/normalize.sass */
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -335,7 +300,6 @@ table {
 }
 
 /** to remove the rounded in IOS*/
-/* line 338, X:/front/git/barbershop/sass/libs/normalize.sass */
 textarea,
 input[type="text"],
 input[type="button"],
@@ -343,5 +307,3 @@ input[type="submit"] {
   -webkit-appearance: none;
   border-radius: 0;
 }
-
-/*# sourceMappingURL=../../css/libs/normalize.map */
