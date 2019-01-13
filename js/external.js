@@ -10,9 +10,10 @@ var close_map = document.querySelector('.modal_map .modal_close');
 var overlay = document.querySelector('.modal_overlay');
 var password = popup.querySelector('[name=password]');
 var login = popup.querySelector('[name=login]');
-var storage = localStorage.getItem("login");
+var storage = localStorage.getItem("login');
 console.log(login)
 console.log(storage)
+
 
 
 link.addEventListener('click', function(event) {
